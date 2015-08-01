@@ -27,4 +27,9 @@
 	</snapshotRepository>
 </distributionManagement>
   
+<scm>
+	<developerConnection>scm:git:https://github.com/AntjePotti/FeminaleParentPom.git</developerConnection>
+	<tag>HEAD</tag>
+</scm>
+	
 </project>
