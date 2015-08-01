@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.informatica-feminale</groupId>
+  <artifactId>buildmanagement-parent-antje</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>buildmanagement-parent-antje</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.name>org.springframework.boot</spring.name>
+     <spring.version>1.2.5.RELEASE</spring.version>
+  </properties>
+
+<distributionManagement>
+	<repository>
+		<id>informatica</id>
+		<url>http://52.18.220.227:8081/nexus/content/repositories/releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>informatica</id>
+		<url>http://52.18.220.227:8081/nexus/content/repositories/snapshots/</url>
+	</snapshotRepository>
+</distributionManagement>
+  
+</project>
